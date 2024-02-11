@@ -1,7 +1,5 @@
 @font-face {
     font-family: "vazir";
     src: url(./Vazir-FD-WOL.eot) format("embedded open type"),
-    url(./Vazir-FD-WOL.ttf) format("true type"),
-    url(./Vazir-FD-WOL.woff) format("woff"),
-    url(./Vazir-FD-WOL.woff2) format("woff2");
+    url(./Vazir-FD-WOL.ttf) format("true type")
 }
