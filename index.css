@@ -99,5 +99,44 @@ p {
 .paragraf-section {
 	margin-top: 8rem;
 }
+.say-palestine {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box-say {
+  max-width: 30rem;
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: .2rem rgb(0, 133, 88) solid;
+  border-radius: .5rem;
+  padding: .5rem;
+  margin: 0 .5rem 0 .5rem;
+}
+.profile-say {
+  position: relative;
+  top: 1rem;
+}
+.paragraf-say {
+}
+.profile-say img {
+	height: 4rem;
+	width: 4rem;
+	border-radius: 5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .say-palestine{
+    flex-direction: column;
+  }
+  .box-say {
+    height: 25rem;
+    margin: .5rem 0 .5rem 0;
+  }
+}
 
 
