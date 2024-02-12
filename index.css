@@ -106,8 +106,8 @@ p {
 }
 
 .box-say {
-  width: 30rem !important;
-  height: 32rem !important;
+  max-width: 30rem;
+  height: 32rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
