@@ -103,7 +103,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: max-content
 }
 
 .box-say {
@@ -133,7 +132,6 @@ p {
 @media screen and (max-width: 1200px) {
   .say-palestine{
     flex-direction: column;
-    justify-content: center;
   }
   .box-say {
     height: 25rem;
