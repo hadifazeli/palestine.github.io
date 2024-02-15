@@ -106,7 +106,7 @@ p {
 }
 
 .box-say {
-  inline-size: 30rem;
+  max-inline-size: 30rem;
   height: 32rem;
   display: flex;
   flex-direction: column;
