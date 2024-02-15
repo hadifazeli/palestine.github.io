@@ -100,9 +100,9 @@ p {
 	margin-top: 8rem;
 }
 .say-palestine {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 20rem);
 }
 
 .box-say {
@@ -131,7 +131,9 @@ p {
 
 @media screen and (max-width: 1200px) {
   .say-palestine{
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 27rem);
+
   }
   .box-say {
     height: 25rem;
