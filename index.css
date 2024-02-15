@@ -103,10 +103,11 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: max-content
 }
 
 .box-say {
-  max-inline-size: 30rem;
+  max-inline-size: 25rem;
   height: 32rem;
   display: flex;
   flex-direction: column;
