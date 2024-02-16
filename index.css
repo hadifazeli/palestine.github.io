@@ -160,8 +160,8 @@ p {
 .signup-comments{
 }
 .svg-comments img {
-  max-height: 30rem;
-  max-width: 30rem;
+  max-height: 80% !important;
+  max-width: 80% !important;
 }
 .signup-button {
   display: flex;
