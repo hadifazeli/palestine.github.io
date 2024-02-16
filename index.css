@@ -144,7 +144,7 @@ p {
   background-color: rgb(183, 206, 185);
   transition: background-color 600ms;
 
-	.comments-section{
+.comments-section{
   margin-top: 10rem ;
 
 }
@@ -160,8 +160,8 @@ p {
 .signup-comments{
 }
 .svg-comments img {
-  max-height: 80%;
-  max-width: 80%;
+  max-height: 30rem;
+  max-width: 30rem;
 }
 .signup-button {
   display: flex;
