@@ -140,5 +140,63 @@ p {
     margin: .5rem auto .5rem auto;
   }
 }
+.say-palestine :hover {
+  background-color: rgb(183, 206, 185);
+  transition: background-color 600ms;
+
+	.comments-section{
+  margin-top: 10rem ;
+
+}
+.comments-wrap{
+  display: flex;
+
+
+}
+.svg-comments{
+
+
+}
+.signup-comments{
+}
+.svg-comments img {
+  max-height: 80%;
+  max-width: 80%;
+}
+.signup-button {
+  display: flex;
+  justify-content: center;
+}
+a {
+  color: aliceblue;
+  text-decoration-line: none;
+}
+input::placeholder {
+  direction: rtl;
+}
+h2 {
+  direction: ltr;
+}
+.input-Relationship{
+  border: none;
+  background:none;
+  border-bottom: solid white 3px;
+  color: azure;
+  direction: rtl;
+}
+h2 , h4 {
+  text-align: center;
+}
+.massage {
+  display: flex;
+  flex-direction: column;
+}
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+}
 
 
