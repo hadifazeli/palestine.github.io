@@ -1,8 +1,8 @@
 @font-face {
     font-family: "vazir";
-    src: url(./font/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir.woff2);
-    src: url(./font/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir.eot) format("embedded open type"),
-    url(./font/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir.ttf) format("true type"),
-    url(./font/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir.woff) format("woff"),
-    url(./font/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir.woff2) format("woff2");
+    src: url(./Vazir.woff2);
+    src: url(./Vazir.eot) format("embedded open type"),
+    url(./Vazir.ttf) format("true type"),
+    url(./Vazir.woff) format("woff"),
+    url(./Vazir.woff2) format("woff2");
 }
