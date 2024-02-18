@@ -12,6 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "vazir";
+    font-size: 100%;
 }
 .images-section{
 }
@@ -160,8 +161,8 @@ p {
 .signup-comments{
 }
 .svg-comments img {
-  max-height: 80% !important;
-  max-width: 80% !important;
+  max-height: 2rem ;
+  max-width: 2rem;
 }
 .signup-button {
   display: flex;
