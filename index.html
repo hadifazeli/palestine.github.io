@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./font.css" />
     <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./all.css" />
-    <link rel="stylesheet" href="./bootstrap.min.css" />
-    <link rel="stylesheet" href="./bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./bootstrap/bootstrap.rtl.css" />
     <link rel="stylesheet" href="./index.css" />
-    <title>فلسطین موضوعی جهانی</title>
+    <title>Document</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
@@ -63,17 +63,17 @@
         <div class="images-section">
           <div class="wrap1">
             <div class="image-1">
-              <img src="./فلسطین.jpg" class="" alt="" />
+              <img src="./images/فلسطین.jpg" class="" alt="" />
             </div>
             <div class="image-2">
-              <img src="./فلسط1ین.jpg" class="" alt="" />
+              <img src="./images/فلسط1ین.jpg" class="" alt="" />
             </div>
             <div class="image-3">
-              <img src="./فلسطین 2.jpg" class="" alt="" />
+              <img src="./images/فلسطین 2.jpg" class="" alt="" />
             </div>
             <div class="image-4">
               <img
-                src="./13970224155624536141374910.jpg"
+                src="./images/13970224155624536141374910.jpg"
                 class=""
                 alt=""
               />
@@ -215,13 +215,18 @@
             </p>
           </div>
         </div>
+        <div class="podcast">
+          <h3>پادکست درباره فلسطین</h3>
+          <iframe title="اپیزود ویژه سرزمین فلسطین (1)" height="150" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=nxv8c-14e6a94-pb&from=pb6admin&share=1&download=1&rtl=1&fonts=Tahoma&skin=3267a3&font-color=&logo_link=episode_page&btn-skin=1b1b1b" allowfullscreen=""></iframe>
+          <iframe title="اپیزود ویژه سرزمین فلسطین (2)" height="150" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=h5nqy-14e6e85-pb&from=pb6admin&share=1&download=1&rtl=1&fonts=Tahoma&skin=3267a3&font-color=&logo_link=episode_page&btn-skin=1b1b1b" allowfullscreen=""></iframe>
+        </div>
         <hr />
         <div class="say-section mt-5">
           <h3>سخنانی درباره فلسطین</h3>
           <div class="say-palestine mt-5">
             <div class="box-say">
               <div class="profile-say">
-                <img src="./download.jpg" alt="تصویر بارگذاری نشد" />
+                <img src="./images/download.jpg" alt="تصویر بارگذاری نشد" />
               </div>
               <div class="paragraf-say">
                 <p>
@@ -235,7 +240,7 @@
             <div class="box-say">
               <div class="profile-say">
                 <img
-                  src="./220px-Portrait_of_Ruhollah_Khomeini.jpg"
+                  src="./images/220px-Portrait_of_Ruhollah_Khomeini.jpg"
                   alt="تصویر بارگذاری نشد"
                 />
               </div>
@@ -252,7 +257,7 @@
             <div class="box-say">
               <div class="profile-say">
                 <img
-                  src="./استاد-مرتضی-مطهری.jpg"
+                  src="./images/استاد-مرتضی-مطهری.jpg"
                   alt="تصویر بارگذاری نشد"
                 />
               </div>
@@ -273,7 +278,7 @@
         <div class="comments-section">
           <div class="comments-wrap">
             <div class="svg-comments">
-              <img src="./undraw_modern_design_re_dlp8.svg" alt="" />
+              <img src="./images/undraw_modern_design_re_dlp8.svg" alt="" />
             </div>
             <div class="signup-comments">
               <p>
@@ -286,7 +291,7 @@
                   type="button"
                   class="btn btn-primary px-2 py-1 px-xl-4 py-xl-3"
                 >
-                  <a href="">ثبت نام</a>
+                  <a href="./login.html">ثبت نام</a>
                 </button>
               </div>
             </div>
@@ -323,48 +328,57 @@
           </div>
         </div>
       </div>
-      <div class="footer bg-black text-white p-3 p-xl-5 mt-5">
-        <div class="container-fluid">
-          <h4>برای پاسخ گویی به سوالات با ما در تماس باشید</h4>
-          <h2 class="mt-5">051-********</h2>
-          <div class="main-footer">
-            <div class="Relationship">
-              <form action="#" class="massage">
-                <input
-                  type="text"
-                  placeholder="نام"
-                  class="input-Relationship"
-                />
-                <input
-                  type="number"
-                  placeholder="شماره تلفن"
-                  class="input-Relationship mt-4"
-                />
-                <input
-                  type="number"
-                  placeholder="کدپستی"
-                  class="input-Relationship mt-4"
-                />
-                <button
-                  type="button"
-                  class="btn btn-light px-2 py-1 px-xl-4 py-xl-2 mt-4"
-                >
-                  ارسال
-                </button>
-              </form>
-            </div>
-            <div class="addres">
-              <p>
-                ادرس ما:<br />خراسان رضوی_مشهد_....._....._......_..... مدرسه
-                ایت الله کاشانی
-              </p>
-            </div>
-            <div class="information">توسعه دهنده هادی فاضلی<br />کلاس101</div>
-          </div>
+      <div class="site-footer">
+        <div class="container">
+        <div class="row">
+        <div class="col-sm-12 col-md-6">
+        <h6>درباره</h6>
+        <p class="text-justify">سلام! شاید برای شما سوال باشد چرا باید همچنین سایتی وجود داشته باشد که محتوایش تنها درباره فلسطین باشد؟ خب ما باید بگوییم موضوع ما انسانیت است. موضوع ما حمایت از مظلوم است. موضوع ما دین است</p>
+        </div>
+        <div class="col-6 col-md-3">
+        <h6>دسته بندی ها</h6>
+        <ul class="footer-links ">
+        <li><a href="#">فلسطین</a></li>
+        <li><a href="#">مدرسه ایت الله کاشانی</a></li>
+        <li><a href="#">طراح سایت</a></li>
+        <li><a href="#">نظرات</a></li>
+        <li><a href="#">جبهه مقاومت</a></li>
+        <li><a href="#">جمهوری اسلامی ایران</a></li>
+        </ul>
+        </div>
+        <div class="col-6 col-md-3">
+        <h6>اطلاعات</h6>
+        <ul class="footer-links">
+        <li><a href="#">نام : هادی فاضلی</a></li>
+        <li><a href="#">نام مدرسه : آیت الله کاشانی</a></li>
+        <li><a href="#">نام دبیر : آقای مجاور</a></li>
+        <li><a href="#">موضوع سایت : فلسطین</a></li>
+        <li><a href="#">لینک :https://hadifazeli.github.io/palestine.github.io/?</a></li>
+        </ul>
+        </div>
+        </div>
+        <hr class="small">
+        </div>
+        <div class="container">
+        <div class="row">
+        <div class="col-md-8 col-sm-6 col-12">
+        <p class="copyright-text">توسعه یافته در سال 1403
+        <a href="#"><span class="logo">فلسطین</span></a>
+        </p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+        <ul class="social-icons">
+        <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+        <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+        </div>
+        </div>
         </div>
       </div>
     </main>
-    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap/bootstrap.bundle.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
