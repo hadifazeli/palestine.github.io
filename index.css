@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"vazir";
+  outline: none;
+}
+body{
+min-height: 100vh;
+display: block;
+align-items: center;
+justify-content: center;
+}
 .nav-item a {
   background: linear-gradient(
       to right,
@@ -13,19 +26,6 @@
   background-position: 100% 100%;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family:"vazir";
-  outline: none;
-}
-body{
-min-height: 100vh;
-display: block;
-align-items: center;
-justify-content: center;
-}
 .images-section {
 }
 .wrap1 {
