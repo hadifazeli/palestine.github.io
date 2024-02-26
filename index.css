@@ -20,6 +20,12 @@
   font-family:"vazir";
   outline: none;
 }
+body{
+min-height: 100vh;
+display: block;
+align-items: center;
+justify-content: center;
+}
 .images-section {
 }
 .wrap1 {
@@ -176,18 +182,7 @@ input::placeholder {
   direction: rtl;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
-*{
-margin:0;
-padding:0;
-box-sizing: border-box;
-}
-body{
-font-family: 'Poppins', sans-serif;
-min-height: 100vh;
-display: block;
-align-items: center;
-justify-content: center;
-}
+
 .site-footer {
 background-color: #26272b;
 padding: 45px 0 20px;
