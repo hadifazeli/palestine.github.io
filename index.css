@@ -149,7 +149,9 @@ p {
 }
 .say-palestine :hover {
   background-color: rgb(183, 206, 185);
-  transition: background-color 600ms;
+  box-shadow: 0 0 0 0;
+  transition: box-shadow 200ms, background-color 200ms;
+
 
 } 
 .comments-section{
@@ -302,4 +304,15 @@ background-color: #007bb6;
 .social-icons a.dribbble:hover {
 background-color: #ea4c89;
 }
+button {
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.6);
+}
+.box-say {
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.6);
+}
+button:hover {
+  box-shadow: 0 0 0 0;
+  transition: box-shadow 400ms;
+}
+
 
